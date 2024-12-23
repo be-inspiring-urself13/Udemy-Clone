@@ -4,6 +4,7 @@
 }
 body{
     font-family: "Gabarito", sans-serif;
+    overflow-x: hidden;
 }
 .offer-price{
     background-color: #B565A5;
@@ -156,6 +157,8 @@ body{
     padding: 10px;
 }
 .recommended__container{
+    width: 90%;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -166,7 +169,6 @@ body{
    flex-grow: 1;
    flex-basis: 20%;
    margin: 5px;
-   padding-bottom: 10px;
 }
 .course-card img{
     width: 100%;
@@ -174,7 +176,6 @@ body{
     padding-top: 10px;
 }
 .topics{
-    margin-top: 3%;
     padding: 10px;
     cursor: pointer;
 }
@@ -222,6 +223,7 @@ body{
     background-color: #3e4143;
 }
 .feature_title{
+    width: auto;
     padding: 70px;
     background-color: #f7f9fa;
     gap: 60px;
@@ -252,13 +254,14 @@ body{
     padding: 10px;
 }
 .popular__container{
+    width: 90%;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
 }
 .footer{
-    margin-top: 3%;
     padding: 30px;
     background-color: black;
     color: white;
