@@ -166,6 +166,7 @@ body{
    flex-grow: 1;
    flex-basis: 20%;
    margin: 5px;
+   margin-bottom: 15px;
 }
 .course-card img{
     width: 100%;
@@ -173,6 +174,7 @@ body{
     padding-top: 10px;
 }
 .topics{
+    margin-top: 4%;
     padding: 10px;
     cursor: pointer;
 }
@@ -256,6 +258,7 @@ body{
     margin-top: 10px;
 }
 .footer{
+    margin-top: 4%;
     padding: 30px;
     background-color: black;
     color: white;
