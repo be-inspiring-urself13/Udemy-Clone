@@ -4,7 +4,6 @@
 }
 body{
     font-family: "Gabarito", sans-serif;
-    overflow-x: hidden;
 }
 .offer-price{
     background-color: #B565A5;
@@ -157,8 +156,6 @@ body{
     padding: 10px;
 }
 .recommended__container{
-    width: 90%;
-    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -223,7 +220,6 @@ body{
     background-color: #3e4143;
 }
 .feature_title{
-    width: auto;
     padding: 70px;
     background-color: #f7f9fa;
     gap: 60px;
@@ -254,8 +250,6 @@ body{
     padding: 10px;
 }
 .popular__container{
-    width: 90%;
-    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
